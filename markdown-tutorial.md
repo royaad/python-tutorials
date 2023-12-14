@@ -18,17 +18,6 @@ This is a [section link](#this-is-a-h1-header)
 
 This is an image ![title](/images/logging-error-vs-exception.png)
 
-This is a `code`
-
-```bash
-ls -h / | sort
-```
-
-```python
-def function(*args, **kwargs):
-    return
-```
-
 This is a **bold text**
 
 This is also __bold__
@@ -41,7 +30,31 @@ This is ***bold and italic***
 
 This is also ___bold and italic___
 
+This is a ~~scratched text~~
+
 This is a numbered list
+
+This is a `code`
+
+```bash
+ls -h / | sort
+```
+
+```python
+def function(*args, **kwargs):
+    return
+```
+
+This is an inline lateX formula $f(x)=\alpha .e^{-\beta x}$
+
+While this is a display equation
+$$\dfrac{n!}{k!(n-k)!} = \binom{n}{k}$$
+
+Check [link](https://ashki23.github.io/markdown-latex.html) for more lateX.
+
+> This is an single indentation
+>> This is a double indentation
+>>> This is a triple indentation
 
 1. item 1
    1. indented item 1
@@ -69,3 +82,27 @@ This is a horizontal rule
 ***
 
 we can equally use ___ or --- istead of ***.
+
+To build a table
+
+1st Header|2nd Header|3rd Header
+---|:---:|---:
+col 1 is|left-aligned|1
+col 2 is|center-aligned|2
+col 3 is|right-aligned|3
+
+The alignment is define by --- (left), :---: (center), and ---: (right).
+
+Previewing mermaid charts on VSCode requires an additional extension
+
+```Mermaid
+graph LR
+    A[Square Rect] -- Link text --> B((Circle))
+    A --> C(Round Rect)
+    B --> D{Rhombus}
+    C --> D
+```
+
+For more info on mermaid charts refer to [link1](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/) and [link2](https://mermaid.js.org/syntax/flowchart.html).
+
+With `Markdown All In One` extension installed to VSCode, links can be simply created by selecting the text and pasting the link onto it.

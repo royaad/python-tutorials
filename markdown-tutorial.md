@@ -122,3 +122,9 @@ graph LR
 For more info on mermaid charts refer to [link1](https://jojozhuang.github.io/tutorial/mermaid-cheat-sheet/) and [link2](https://mermaid.js.org/syntax/flowchart.html).
 
 With `Markdown All In One` extension installed to VSCode, links can be simply created by selecting the text and pasting the link onto it.
+
+## Useful Websites
+
+- [Markdown Table Generator](https://www.tablesgenerator.com/markdown_tables)
+- [LateX Equation Editor](https://editor.codecogs.com/)
+- [Text to ASCII Art Generator](https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)

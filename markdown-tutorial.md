@@ -36,7 +36,7 @@ This is a numbered list
 
 This is a `code`
 
-These are fenced oodes
+These are fenced codes
 
 ```bash
 .
